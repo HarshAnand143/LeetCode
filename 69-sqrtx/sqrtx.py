@@ -1,5 +1,5 @@
-class Solution:
-    def mySqrt(self, x: int) -> int:
+class Solution(object):
+    def mySqrt(self, x):
         low = 0
         high = x
         ans = -1
