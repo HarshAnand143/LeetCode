@@ -1,5 +1,5 @@
-class Solution(object):
-    def smallestIndex(self, nums):
+class Solution:
+    def smallestIndex(self, nums: List[int]) -> int:
         for i in range(len(nums)):
             x = nums[i]
             total = 0
