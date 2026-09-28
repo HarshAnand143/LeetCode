@@ -1,5 +1,5 @@
-class Solution(object):
-    def maxDepth(self, s):
+class Solution:
+    def maxDepth(self, s: str) -> int:
         maxdepth = 0
         count = 0
         for i in range(len(s)):
