@@ -1,5 +1,5 @@
-class Solution(object):
-    def isPowerOfThree(self, n):
+class Solution:
+    def isPowerOfThree(self, n: int) -> bool:
         if n <= 0:
             return False
         while n % 3 == 0:
