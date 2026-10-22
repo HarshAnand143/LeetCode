@@ -1,5 +1,5 @@
-class Solution(object):
-    def isPowerOfFour(self, n):
+class Solution:
+    def isPowerOfFour(self, n: int) -> bool:
         if n == 0:
             return False
         while n % 4 == 0:
