@@ -1,5 +1,5 @@
-class Solution(object):
-    def numOfSubarrays(self, arr):
+class Solution:
+    def numOfSubarrays(self, arr: list[int]) -> int:
         MOD = 1000000007
         count = 0
         even = 1
